@@ -2738,7 +2738,7 @@ input, select, textarea {
 		}
 
 		.main .container {
-			padding: 5em 2em 8em 2em ;
+			padding: 5em 1em 8em 1em ;
 			background: rgba(255, 255, 255, 0.95);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
@@ -2755,7 +2755,7 @@ input, select, textarea {
 				display: inline-block;
 				margin-right: 1px;
 				vertical-align: middle;
-				width: calc(100% - 10px);
+				width: calc(100% - 2px);
 			}
 
 		.main .goto-next {
