@@ -132,6 +132,7 @@ input, select, textarea {
 		}
 
 	h2 {
+		padding: 0 0 0 0;
 		font-size: 1.75em;
 		letter-spacing: -1px;
 	}
@@ -389,9 +390,9 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 20%;
 			padding: 1.5em 1.5em 0 0;
-			margin-bottom: 3em;
+			margin-left: 2em;
 		}
 
 		.row > .off-3 {
@@ -1798,6 +1799,22 @@ input, select, textarea {
 
 		}
 
+/* Sections */
+
+	section, article {
+		margin-bottom: 3em;
+	}
+
+		section > :last-child,
+		section > .container, section:last-child, article > :last-child,
+		article > .container, article:last-child {
+			margin-bottom: 0;
+		}
+
+		.row > section, .row > article {
+			margin-bottom: 0;
+		}
+
 /* List */
 
 	ul {
@@ -2039,7 +2056,36 @@ input, select, textarea {
 						color: #e27689;
 					}
 
+/* Footer */
 
+#footer {
+	margin-left: 0;
+	text-align: center;
+	background-color: #dce3e2;
+	padding: 3em 0 4em 0;
+	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+	font-size: 0.8em;
+}
+
+	#footer .copyright {
+		cursor: default;
+		margin: 0;
+		padding 0 0 0 2em;
+	}
+
+		#footer .copyright li {
+			display: inline-block;
+			line-height: 1em;
+			border-left: solid 1px rgba(128, 128, 128, 0.35);
+			padding: 0 0 0 0.5em;
+			margin: 0 0 0 0.5em;
+		}
+
+			#footer .copyright li:first-child {
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
+			}
 
 /* Main */
 
@@ -2145,7 +2191,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 0;
 			}
 
 		/* Main */
@@ -2273,7 +2319,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				margin-left: 20%;
+				margin-left: 0;
 			}
 
 		/* Main */
@@ -2508,10 +2554,10 @@ input, select, textarea {
 			}
 
 			h1 {
-				font-size: 2.25em;
+				font-size: 1.75em;
 				font-weight: 600;
-				letter-spacing: 5px;
-				line-height: 1em;
+				letter-spacing: 2px;
+				line-height: .75em;
 			}
 
 			h2 {
@@ -2522,7 +2568,14 @@ input, select, textarea {
 
 			p.cover {
 				font-weight: 150;
-				font-size: 1em;
+				font-size: .8em;
+				letter-spacing: .25px;
+			}
+
+			p.bio {
+				margin: -1em 0 2em 0;
+				font-size: .8em;
+				line-height: 1.4em;
 				letter-spacing: .25px;
 			}
 
