@@ -2654,6 +2654,7 @@ input, select, textarea {
 
 			p.bio {
 				margin: -1em 0 2em 0;
+				padding: 0 2em;
 				font-size: .8em;
 				line-height: 1.4em;
 				letter-spacing: .25px;
@@ -2709,18 +2710,18 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
-				padding: 1em 0;
+				/* padding: 1em 1em; */
 				
 			}
 
 			#main > section.three {
 				background-color: #ecf1f1;
-				padding: 1em 1em;
+				/* padding: 1em 0; */
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
-				padding: 1em 1em;
+				/* padding: 1em 1em; */
 			}
 
 		/* Footer */
