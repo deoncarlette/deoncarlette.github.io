@@ -2602,6 +2602,22 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
+				#main > section.two {
+					background-color: #f5fafa;
+					padding: 0 0;
+					
+				}
+	
+				#main > section.three {
+					background-color: #ecf1f1;
+					padding: 0 0;
+				}
+	
+				#main > section.four {
+					background-color: #e8edec;
+					padding: 0 0;
+				}
+
 	}
 
 /* Mobile */
@@ -2690,18 +2706,18 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
-				padding: 2em 3em;
+				padding: 0 0;
 				
 			}
 
 			#main > section.three {
 				background-color: #ecf1f1;
-				padding: 2em 1em;
+				padding: 0 0;
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
-				padding: 2em 3em;
+				padding: 0 0;
 			}
 
 		/* Footer */
