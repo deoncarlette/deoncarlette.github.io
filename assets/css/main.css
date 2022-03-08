@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 1.5em;
 }
 
 ol, ul {
@@ -85,9 +85,9 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 16pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		color: #888;
 	}
 
@@ -116,11 +116,7 @@ input, select, textarea {
 		line-height: 1em;
 	}
 
-		h1 {
-			font-size: 2.75em;
-			font-weight: 600;
-			letter-spacing: 5px;
-		}
+		
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
@@ -131,6 +127,12 @@ input, select, textarea {
 			color: #333;
 		}
 
+	h1 {
+		font-size: 2.75em;
+		font-weight: 600;
+		letter-spacing: 5px;
+	}
+
 	h2 {
 		padding: 0 0 0 0;
 		font-size: 1.75em;
@@ -138,7 +140,7 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			padding: 2em 0 0 0;
 		}
 
 			h2.alt strong {
@@ -148,6 +150,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.5em;
 	}
+
 
 	header {
 		margin: 0 0 2em 0;
@@ -221,8 +224,8 @@ input, select, textarea {
 
 	p.bio {
 		font-size: 1em;
+		line-height: 1.5em;
 		text-align: left;
-		margin: 0 0 1.25em 0;
 	}
 
 	/* br.clear {
@@ -391,8 +394,6 @@ input, select, textarea {
 
 		.row > .col-3 {
 			width: 20%;
-			/* padding: 1.5em 1.5em 0 0; */
-			/* margin-left: 3em; */
 		}
 
 		.row > .off-3 {
@@ -441,7 +442,6 @@ input, select, textarea {
 
 		.row > .col-9 {
 			width: 75%;
-			/* padding: 1.5em 1.5em 0 0; */
 		}
 
 		.row > .off-9 {
@@ -1906,21 +1906,22 @@ input, select, textarea {
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
-			padding: .5em 0 0 .5em;
+			margin: .5em 0 1.5em 0;
+			padding: .5em 0 1.5em .5em;
 		}
 
 		.work-item h3 {
 			font-size: 1.25em;
 			margin: 0 0 0.5em 0;
-			padding: .5em .5em 0 0;
+			padding: .5em .5em 0 .3em;
 			text-align: left;
 		}
 
 		.work-item p {
-			font-size: 1em;
+			font-size: .9em;
 			line-height: 1.5em;
 			margin: .5em 0 0 0;
+			padding: 0 0 1.5em .5em;
 			text-align: left;
 		}
 
@@ -2117,14 +2118,18 @@ input, select, textarea {
 
 			#main > section.two {
 				background-color: #f5fafa;
+				padding: 2em 3em;
+				
 			}
 
 			#main > section.three {
 				background-color: #ecf1f1;
+				padding: 2em 3em;
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
+				padding: 2em 3em;
 			}
 
 /* Footer */
