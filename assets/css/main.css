@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+/* @import url("fontawesome-all.min.css"); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -2606,18 +2606,18 @@ input, select, textarea {
 
 				#main > section.two {
 					background-color: #f5fafa;
-					/* padding: 1em 0; */
+					padding: 1em .5em;
 					
 				}
 	
 				#main > section.three {
 					background-color: #ecf1f1;
-					/* padding: 1em 0; */
+					padding: 1em .5em;
 				}
 	
 				#main > section.four {
 					background-color: #e8edec;
-					/* padding: 1em 0; */
+					padding: 1em .5em;
 				}
 
 	}
@@ -2654,7 +2654,7 @@ input, select, textarea {
 
 			p.bio {
 				margin: -1em 0 2em 0;
-				padding: 0 2em;
+				padding: 0 0;
 				font-size: .8em;
 				line-height: 1.4em;
 				letter-spacing: .25px;
@@ -2693,6 +2693,8 @@ input, select, textarea {
 				width: 2em;
 				font-size: 1.25em;
 			}
+
+		
 
 		/* Main */
 
